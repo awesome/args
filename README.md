@@ -9,5 +9,5 @@ a.add_arg("b", 0)
 a.add_arg("c", 1)
 a.add_arg("d", 1)
 
-a.parse(["-b", "-d" "butts"]) # {"b"=>true, "d"=>"butts"}
+a.parse(["-b", "-d", "butts"]) # {"b"=>true, "d"=>"butts"}
 ```
